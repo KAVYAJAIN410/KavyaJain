@@ -43,6 +43,57 @@ export default function Home() {
           <div className="sub-heading no-outline text-tertiary text-lg md:text-xl tracking-widest mb-16 font-montserrat font-medium relative top-12">
            I’m a full-stack AI/ML engineer.
           </div>
+          {/* Social / Portfolio Links */}
+<div className="flex space-x-6 md:space-x-8 justify-center items-center mt-2 relative top-12">
+  <motion.a
+    href="https://github.com/KAVYAJAIN410"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.2 }}
+    transition={{ duration: 0.2 }}
+  >
+    <Image
+      src="/github.png"
+      alt="GitHub"
+      width={50}
+      height={50}
+      className="cursor-pointer"
+    />
+  </motion.a>
+
+  <motion.a
+    href="https://www.linkedin.com/in/kavya-jain-75698328a/"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.2 }}
+    transition={{ duration: 0.2 }}
+  >
+    <Image
+      src="/lk.svg"
+      alt="LinkedIn"
+      width={80}
+      height={80}
+      className="cursor-pointer"
+    />
+  </motion.a>
+
+  <motion.a
+    href="https://drive.google.com/file/d/1hc73J9pQDKHivyliCErgwnzrXsPc2CLl/view"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.2 }}
+    transition={{ duration: 0.2 }}
+  >
+    <Image
+      src="/rm.png"
+      alt="Resume"
+      width={50}
+      height={50}
+      className="cursor-pointer"
+    />
+  </motion.a>
+</div>
+          
           {/* <div className="links flex w-[70%] md:w-[40%] lg:w-[30%] justify-between">
             <motion.div
               className="project"
