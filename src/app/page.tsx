@@ -78,7 +78,7 @@ export default function Home() {
   </motion.a>
 
   <motion.a
-    href="https://drive.google.com/file/d/1hc73J9pQDKHivyliCErgwnzrXsPc2CLl/view"
+    href="https://drive.google.com/file/d/1zYy8Ddm8NlmMW9xQ1FgbNS6TSosyAx71/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     whileHover={{ scale: 1.2 }}
