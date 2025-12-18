@@ -32,68 +32,7 @@ const variantsli = {
 };
 const SocialMenu: React.FC = () => {
   return (
-    <div
-      className={` scale-75 md:scale-100 w-[90%] lg:w-[60%] h-16  absolute left-[50%] translate-x-[-50%] z-[1000] flex justify-evenly items-center bottom-12 md:bottom-2`}
-    >
-      <Link
-        href="https://github.com/Keshav-Aneja"
-        className="hover:scale-125 transition-all duration-200 ease"
-      >
-        <li style={{ listStyleType: "none" }}>
-          <Image
-            src="/images/github.png"
-            alt=""
-            width={25}
-            height={25}
-            className="w-8 aspect-square"
-          ></Image>
-        </li>
-      </Link>
-      <Link
-        href="https://twitter.com/Keshav__Aneja"
-        className="hover:scale-125 transition-all duration-200 ease"
-      >
-        <li style={{ listStyleType: "none" }}>
-          <div className="content bg-white w-fit h-fit rounded-full">
-            <Image
-              src="/images/twitter-logo.png"
-              alt=""
-              width={25}
-              height={25}
-              className="w-8 aspect-square"
-            ></Image>
-          </div>
-        </li>
-      </Link>
-      <Link
-        href="https://www.linkedin.com/in/keshav-aneja/"
-        className="hover:scale-125 transition-all duration-200 ease"
-      >
-        <li style={{ listStyleType: "none" }}>
-          <Image
-            src="/images/linkedin.png"
-            alt=""
-            width={25}
-            height={25}
-            className="w-8 aspect-square"
-          ></Image>
-        </li>
-      </Link>
-      <Link
-        href="https://www.instagram.com/k.aneja09/"
-        className="hover:scale-125 transition-all duration-200 ease"
-      >
-        <li style={{ listStyleType: "none" }}>
-          <Image
-            src="/images/instagram-logo.png"
-            alt=""
-            width={25}
-            height={25}
-            className="w-8 aspect-square"
-          ></Image>
-        </li>
-      </Link>
-    </div>
+ <></>
   );
 };
 export default SocialMenu;
