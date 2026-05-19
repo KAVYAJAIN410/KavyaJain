@@ -89,7 +89,7 @@ const ProjectData = [
    {
     id: 3,
     title: "Agentic OS",
-    bannerImg: "ag.png",
+    bannerImg: "Ag.png",
     description:
       "",
     imgBanners: [
